@@ -40,11 +40,10 @@ dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     api 'io.reactivex.rxjava2:rxjava:2.2.6'
     // Updating play services breaks unit tests
-    //noinspection GradleDependency
-    api 'com.google.android.gms:play-services-location:10.2.1'
+    api 'com.google.android.gms:play-services-location:16.0.0'
 
     testImplementation 'junit:junit:4.12'
-    testImplementation 'org.mockito:mockito-core:2.23.4'
+    testImplementation 'org.mockito:mockito-core:2.25.0'
     testImplementation "org.powermock:powermock-module-junit4:2.0.0"
     testImplementation "org.powermock:powermock-api-mockito2:2.0.0"
 }
